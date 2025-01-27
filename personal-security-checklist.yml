@@ -1,291 +1,289 @@
-- title: Authentication
+- title: Аутентификация
   slug: authentication
-  description: Securing your online account login credentials
+  description: Защита ваших учетных данных для входа в онлайн-аккаунты
   icon: password
   color: yellow
   intro: >-
-    Most reported data breaches are caused by the use of weak, default or stolen passwords
-    (according to [this Verizon report](http://www.verizonenterprise.com/resources/reports/rp_dbir-2016-executive-summary_xg_en.pdf)).
-    Use long, strong and unique passwords, manage them in a secure password manager, enable
-    2-factor authentication, keep on top of breaches and take care while logging into your accounts.
+    Большинство утечек данных происходит из-за использования слабых, стандартных или украденных паролей
+    (согласно [отчету Verizon](http://www.verizonenterprise.com/resources/reports/rp_dbir-2016-executive-summary_xg_en.pdf)).
+    Используйте длинные, сложные и уникальные пароли, храните их в надежном менеджере паролей, включайте
+    двухфакторную аутентификацию, следите за утечками данных и будьте осторожны при входе в свои аккаунты.
   checklist:
-  - point: Use a Strong Password
-    priority: Essential
+  - point: Используйте надежный пароль
+    priority: Обязательно
     details: >-
-      If your password is too short, or contains dictionary words, places or names- then it can be easily
-      cracked through brute force, or guessed by someone. The easiest way to make a strong password, is by
-      making it long (12+ characters)- consider using a 'passphrase', made up of many words. Alternatively,
-      use a password generator to create a long, strong random password. Have a play with
-      [HowSecureIsMyPassword.net](https://howsecureismypassword.net), to get an idea of how quickly common
-      passwords can be cracked. Read more about creating strong passwords:
+      Если ваш пароль слишком короткий или содержит слова из словаря, названия мест или имена, его можно легко
+      взломать методом перебора или угадать. Самый простой способ создать надежный пароль — сделать его длинным
+      (12+ символов). Рассмотрите использование «пассфразы», состоящей из нескольких слов. Альтернативно,
+      используйте генератор паролей для создания длинного и сложного случайного пароля. Поэкспериментируйте с
+      [HowSecureIsMyPassword.net](https://howsecureismypassword.net), чтобы понять, насколько быстро можно взломать
+      распространенные пароли. Подробнее о создании надежных паролей:
       [securityinabox.org](https://securityinabox.org/en/passwords/passwords-and-2fa/)
 
-  - point: Don't reuse Passwords
-    priority: Essential
+  - point: Не используйте один пароль для нескольких аккаунтов
+    priority: Обязательно
     details: >-
-      If someone was to reuse a password, and one site they had an account with suffered a leak, then a
-      criminal could easily gain unauthorized access to their other accounts. This is usually done through
-      large-scale automated login requests, and it is called Credential Stuffing. Unfortunately this is all
-      too common, but it's simple to protect against- use a different password for each of your online accounts
+      Если вы используете один и тот же пароль для нескольких аккаунтов, и один из этих сервисов подвергнется утечке данных,
+      злоумышленники смогут легко получить доступ к вашим другим аккаунтам. Это обычно делается с помощью автоматизированных
+      атак, известных как Credential Stuffing. К сожалению, это довольно распространено, но защититься от этого просто —
+      используйте уникальный пароль для каждого аккаунта.
 
-  - point: Use a Secure Password Manager
-    priority: Essential
+  - point: Используйте надежный менеджер паролей
+    priority: Обязательно
     details: >-
-      For most people it is going to be near-impossible to remember hundreds of strong and unique passwords.
-      A password manager is an application that generates, stores and auto-fills your login credentials for you.
-      All your passwords will be encrypted against 1 master passwords (which you must remember, and it should be
-      very strong). Most password managers have browser extensions and mobile apps, so whatever device you are on,
-      your passwords can be auto-filled. A good all-rounder is
-      [Bitwarden](https://awesome-privacy.xyz/essentials/password-managers/bitwarden), or see
-      [Recommended Password Managers](https://awesome-privacy.xyz/essentials/password-managers)
+      Для большинства людей запомнить сотни надежных и уникальных паролей практически невозможно. Менеджер паролей — это приложение,
+      которое генерирует, хранит и автоматически заполняет ваши учетные данные. Все ваши пароли шифруются с использованием одного
+      мастер-пароля (который вы должны запомнить, и он должен быть очень надежным). Большинство менеджеров паролей имеют расширения
+      для браузеров и мобильные приложения, что позволяет автоматически заполнять пароли на любом устройстве. Хорошим универсальным
+      решением является [Bitwarden](https://awesome-privacy.xyz/essentials/password-managers/bitwarden). Также ознакомьтесь с
+      [рекомендованными менеджерами паролей](https://awesome-privacy.xyz/essentials/password-managers).
 
-  - point: Avoid sharing passwords
-    priority: Essential
+  - point: Избегайте передачи паролей
+    priority: Обязательно
     details: >-
-      While there may be times that you need to share access to an account with another person, you should
-      generally avoid doing this because it makes it easier for the account to become compromised. If you
-      absolutely do need to share a password for example when working on a team with a shared account this
-      should be done via features built into a password manager.
+      Хотя иногда может возникнуть необходимость поделиться доступом к аккаунту с другим человеком, в целом этого следует избегать,
+      так как это увеличивает риск компрометации аккаунта. Если вам действительно нужно поделиться паролем (например, при работе
+      в команде с общим аккаунтом), это следует делать с помощью функций, встроенных в менеджер паролей.
 
-  - point: Enable 2-Factor Authentication
-    priority: Essential
-    details: >-
-      2FA is where you must provide both something you know (a password) and something you have (such as a
-      code on your phone) to log in. This means that if anyone has got your password (e.g. through phishing,
-      malware or a data breach), they will not be able to log into your account. It's easy to get started,
-      download [an authenticator app](https://github.com/Lissy93/awesome-privacy#2-factor-authentication)
-      onto your phone, and then go to your account security settings and follow the steps to enable 2FA. Next
-      time you log in on a new device, you will be prompted for the code that displays in the app on your phone
-      (it works without internet, and the code usually changes every 30-seconds)
+- point: Включите двухфакторную аутентификацию (2FA)
+  priority: Обязательно
+  details: >-
+    Двухфакторная аутентификация (2FA) требует предоставления двух элементов: того, что вы знаете (пароль), 
+    и того, что у вас есть (например, код на телефоне). Это защищает ваш аккаунт, даже если злоумышленники 
+    получили ваш пароль (например, через фишинг, вирусы или утечку данных).  
+    Чтобы начать, установите [приложение-аутентификатор](https://github.com/Lissy93/awesome-privacy#2-factor-authentication) 
+    на телефон и включите 2FA в настройках безопасности аккаунта.  
+    При следующем входе с нового устройства система запросит код из приложения на вашем телефоне (оно работает без интернета, 
+    а код обновляется каждые 30 секунд).
 
-  - point: Keep Backup Codes Safe
-    priority: Essential
-    details: >-
-      When you enable multi-factor authentication, you will usually be given several codes that you can use if
-      your 2FA method is lost, broken or unavailable. Keep these codes somewhere safe to prevent loss or
-      unauthorized access. You should store these on paper or in a safe place on disk (e.g. in offline storage
-      or in an encrypted file/drive). Don't store these in your Password Manager as 2FA sources and passwords
-      and should be kept separately.
+- point: Храните резервные коды в безопасности
+  priority: Обязательно
+  details: >-
+    При включении двухфакторной аутентификации вам предоставляются несколько резервных кодов, которые можно использовать, 
+    если ваш способ 2FA будет недоступен, потерян или сломан.  
+    Храните эти коды в надежном месте, чтобы избежать их потери или несанкционированного доступа.  
+    Рекомендуется записать их на бумаге или сохранить на защищенном диске (например, в офлайн-хранилище или в зашифрованном файле/диске).  
+    Не храните их в менеджере паролей, так как источники 2FA и пароли должны быть разделены.
 
-  - point: Sign up for Breach Alerts
-    priority: Optional
-    details: >-
-      After a website suffers a significant data breach, the leaked data often ends up on the internet. There
-      are several websites that collect these leaked records, and allow you to search your email address to check
-      if you are in any of their lists. [Firefox Monitor](https://monitor.firefox.com), [Have I been pwned](https://haveibeenpwned.com)
-      and [DeHashed](https://dehashed.com) allow you to sign up for monitoring, where they will notify you if your
-      email address appears in any new data sets. It is useful to know as soon as possible when this happens, so
-      that you can change your passwords for the affected accounts. [Have i been pwned](https://awesome-privacy.xyz/security-tools/online-tools/have-i-been-pwned) also has domain-wide
-      notification, where you can receive alerts if any email addresses under your entire domain appear (useful if
-      you use aliases for [anonymous forwarding](https://github.com/Lissy93/awesome-privacy#anonymous-mail-forwarding))
+- point: Подпишитесь на уведомления об утечках данных
+  priority: Необязательно
+  details: >-
+    После утечки данных с веб-сайта информация часто попадает в интернет.  
+    Существуют сервисы, которые собирают эти данные и позволяют проверить, фигурирует ли ваш email в их списках.  
+    Например, [Firefox Monitor](https://monitor.firefox.com), [Have I been pwned](https://haveibeenpwned.com) и [DeHashed](https://dehashed.com) 
+    предлагают возможность подписки на уведомления.  
+    Они сообщат вам, если ваш email появится в новых утекших наборах данных. Это позволит вам вовремя сменить пароли для затронутых аккаунтов.  
+    [Have I been pwned](https://awesome-privacy.xyz/security-tools/online-tools/have-i-been-pwned) также поддерживает уведомления для домена, 
+    что полезно, если вы используете email-алиасы.
 
-  - point: Shield your Password/ PIN
-    priority: Optional
-    details: >-
-      When typing your password in public places, ensure you are not in direct line of site of a CCTV camera and
-      that no one is able to see over your shoulder. Cover your password or pin code while you type, and do not
-      reveal any plain text passwords on screen
+- point: Защитите свои пароли/ПИН-коды
+  priority: Необязательно
+  details: >-
+    При вводе пароля в общественных местах убедитесь, что за вами не наблюдают камеры видеонаблюдения и никто не заглядывает вам через плечо.  
+    Закрывайте пароль или ПИН-код рукой при вводе и не отображайте пароли в виде открытого текста на экране.
 
-  - point: Update Critical Passwords Periodically
-    priority: Optional
-    details: >-
-      Database leaks and breaches are common, and it is likely that several of your passwords are already somewhere
-      online. Occasionally updating passwords of security-critical accounts can help mitigate this. But providing
-      that all your passwords are long, strong and unique, there is no need to do this too often- annually should be
-      sufficient. Enforcing mandatory password changes within organisations is [no longer recommended](https://duo.com/decipher/microsoft-will-no-longer-recommend-forcing-periodic-password-changes),
-      as it encourages colleagues to select weaker passwords
+- point: Периодически обновляйте важные пароли
+  priority: Необязательно
+  details: >-
+    Утечки баз данных происходят часто, поэтому вероятно, что некоторые из ваших паролей уже могли попасть в сеть.  
+    Периодическое обновление паролей для критически важных учетных записей может помочь снизить риски.  
+    Однако, если все ваши пароли длинные, сложные и уникальные, достаточно обновлять их раз в год.  
+    Обязательная смена паролей в организациях [больше не рекомендуется](https://duo.com/decipher/microsoft-will-no-longer-recommend-forcing-periodic-password-changes), 
+    так как это приводит к созданию более слабых паролей.
 
-  - point: Don’t save your password in browsers
-    priority: Optional
-    details: >-
-      Most modern browsers offer to save your credentials when you log into a site. Don’t allow this, as they are
-      not always encrypted, hence could allow someone to gain access into your accounts. Instead use a dedicated
-      password manager to store (and auto-fill) your passwords
+- point: Не сохраняйте пароли в браузерах
+  priority: Необязательно
+  details: >-
+    Современные браузеры предлагают сохранять ваши учетные данные при входе на сайт. Не соглашайтесь на это, 
+    так как данные могут быть не зашифрованы, что позволит злоумышленникам получить доступ к вашим аккаунтам. 
+    Вместо этого используйте специализированный менеджер паролей для хранения (и автозаполнения) паролей.
 
-  - point: Avoid logging in on someone else’s device
-    priority: Optional
-    details: >-
-      Avoid logging on other people's computer, since you can't be sure their system is clean. Be especially cautious
-      of public machines, as malware and tracking is more common here. Using someone else's device is especially
-      dangerous with critical accounts like online banking. When using someone else's machine, ensure that you're in a
-      private/ incognito session (Use Ctrl+Shift+N/ Cmd+Shift+N). This will request browser to not save your credentials,
-      cookies and browsing history.
+- point: Избегайте входа на чужих устройствах
+  priority: Необязательно
+  details: >-
+    Не входите на устройства других людей, так как вы не можете быть уверены в их безопасности. Особенно будьте осторожны 
+    с общедоступными компьютерами, так как они чаще заражены вредоносным ПО или содержат средства отслеживания. 
+    Использование чужого устройства особенно опасно для критически важных аккаунтов, таких как онлайн-банкинг. 
+    Если вам всё же нужно воспользоваться чужим устройством, включите приватный/инкогнито-режим (Ctrl+Shift+N/ Cmd+Shift+N), 
+    чтобы браузер не сохранял ваши учетные данные, куки и историю просмотров.
 
-  - point: Avoid password hints
-    priority: Optional
-    details: >-
-      Some sites allow you to set password hints. Often it is very easy to guess answers. In cases where password hints
-      are mandatory use random answers and record them in password manager (`Name of the first school: 6D-02-8B-!a-E8-8F-81`)
+- point: Не используйте подсказки для паролей
+  priority: Необязательно
+  details: >-
+    Некоторые сайты позволяют устанавливать подсказки для паролей. Часто такие подсказки легко угадать. 
+    Если установка подсказки обязательна, используйте случайные ответы и сохраните их в менеджере паролей 
+    (например, `Название первой школы: 6D-02-8B-!a-E8-8F-81`).
 
-  - point: Never answer online security questions truthfully
-    priority: Optional
-    details: >-
-      If a site asks security questions (such as place of birth, mother's maiden name or first car etc), don't provide
-      real answers. It is a trivial task for hackers to find out this information online or through social engineering.
-      Instead, create a fictitious answer, and store it inside your password manager. Using real-words is better than
-      random characters, [explained here](https://news.ycombinator.com/item?id=29244870)
+- point: Никогда не отвечайте правдиво на вопросы безопасности
+  priority: Необязательно
+  details: >-
+    Если сайт запрашивает ответы на вопросы безопасности (например, место рождения, девичья фамилия матери или первая машина), 
+    не давайте реальные ответы. Для злоумышленников легко найти эту информацию в интернете или получить её через социальную инженерию. 
+    Вместо этого создавайте вымышленные ответы и сохраняйте их в менеджере паролей. Использование осмысленных слов лучше, 
+    чем случайных символов, [подробнее здесь](https://news.ycombinator.com/item?id=29244870).
 
-  - point: Don’t use a 4-digit PIN
-    priority: Optional
-    details: >-
-      Don’t use a short PIN to access your smartphone or computer. Instead, use a text password or much longer pin.
-      Numeric passphrases are easy crack, (A 4-digit pin has 10,000 combinations, compared to 7.4 million for a
-      4-character alpha-numeric code)
+- point: Не используйте 4-значный ПИН-код
+  priority: Необязательно
+  details: >-
+    Не используйте короткий ПИН-код для доступа к вашему смартфону или компьютеру. Вместо этого установите текстовый пароль 
+    или более длинный ПИН. Короткие числовые комбинации легко взломать (4-значный ПИН имеет всего 10,000 вариантов, 
+    в то время как 4-символьный алфавитно-числовой код — 7,4 миллиона).
 
-  - point: Avoid using SMS for 2FA
-    priority: Optional
-    details: >-
-      When enabling multi-factor authentication, opt for app-based codes or a hardware token, if supported. SMS is
-      susceptible to a number of common threats, such as [SIM-swapping](https://www.maketecheasier.com/sim-card-hijacking)
-      and [interception](https://secure-voice.com/ss7_attacks). There's also no guarantee of how securely your phone
-      number will be stored, or what else it will be used for. From a practical point of view, SMS will only work when
-      you have signal, and can be slow. If a website or service requires the usage of a SMS number for recovery consider
-      purchasing a second pre-paid phone number only used for account recovery for these instances.
+- point: Не используйте SMS для 2FA
+  priority: Необязательно
+  details: >-
+    При включении двухфакторной аутентификации выбирайте коды из приложения или аппаратный токен, если это возможно. 
+    SMS подвержены ряду распространённых угроз, таких как [SIM-замена](https://www.maketecheasier.com/sim-card-hijacking) 
+    и [перехват](https://secure-voice.com/ss7_attacks). Также нет гарантии, что ваш номер телефона будет безопасно храниться 
+    или не будет использован в других целях. Практически SMS работают только при наличии сигнала и могут приходить с задержкой. 
+    Если сайт требует номер для восстановления, рассмотрите возможность покупки второго предоплаченного номера, 
+    используемого только для этих целей.
 
-  - point: Avoid using your PM to Generate OTPs
-    priority: Advanced
-    details: >-
-      Many password managers are also able to generate 2FA codes. It is best not to use your primary password manager
-      as your 2FA authenticator as well, since it would become a single point of failure if compromised. Instead use a
-      dedicated [authenticator app](https://github.com/Lissy93/awesome-privacy#2-factor-authentication) on your phone or laptop
+- point: Не используйте менеджер паролей для генерации одноразовых кодов
+  priority: Продвинуто
+  details: >-
+    Многие менеджеры паролей могут генерировать коды двухфакторной аутентификации (2FA). 
+    Лучше не использовать ваш основной менеджер паролей в качестве 2FA-аутентификатора, 
+    так как это создаёт единую точку уязвимости в случае его компрометации. 
+    Вместо этого используйте специализированное [приложение-аутентификатор](https://github.com/Lissy93/awesome-privacy#2-factor-authentication) 
+    на телефоне или компьютере.
 
-  - point: Avoid Face Unlock
-    priority: Advanced
-    details: >-
-      Most phones and laptops offer a facial recognition authentication feature, using the camera to compare a snapshot
-      of your face with a stored hash. It may be very convenient, but there are numerous ways to [fool it](https://www.forbes.com/sites/jvchamary/2017/09/18/security-apple-face-id-iphone-x/)
-      and gain access to the device, through digital photos and reconstructions from CCTV footage. Unlike your password-
-      there are likely photos of your face on the internet, and videos recorded by surveillance cameras
+- point: Избегайте использования функции Face Unlock
+  priority: Продвинуто
+  details: >-
+    Большинство смартфонов и ноутбуков предлагают функцию аутентификации по лицу, используя камеру для сравнения вашего изображения 
+    с сохранённым шаблоном. Это удобно, но есть множество способов [обмануть систему](https://www.forbes.com/sites/jvchamary/2017/09/18/security-apple-face-id-iphone-x/) 
+    и получить доступ к устройству через цифровые фотографии или реконструкции с видеозаписей. 
+    В отличие от пароля, изображения вашего лица, вероятно, уже есть в интернете или записаны на камеры наблюдения.
 
-  - point: Watch out for Keyloggers
-    priority: Advanced
-    details: >-
-      A hardware [keylogger](https://en.wikipedia.org/wiki/Hardware_keylogger) is a physical device planted between
-      your keyboard and the USB port, which intercepts all key strokes, and sometimes relays data to a remote server.
-      It gives a hacker access to everything typed, including passwords. The best way to stay protected, is just by
-      checking your USB connection after your PC has been unattended. It is also possible for keyloggers to be planted
-      inside the keyboard housing, so look for any signs that the case has been tampered with, and consider bringing your
-      own keyboard to work. Data typed on a virtual keyboard, pasted from the clipboard or auto-filled by a password
-      manager can not be intercepted by a hardware keylogger.
+- point: Будьте внимательны к кейлоггерам
+  priority: Продвинуто
+  details: >-
+    Аппаратный [кейлоггер](https://ru.wikipedia.org/wiki/Кейлоггер) — это физическое устройство, устанавливаемое между вашей клавиатурой 
+    и USB-портом, которое перехватывает все нажатия клавиш, а иногда передаёт данные на удалённый сервер. 
+    Хакер получает доступ ко всему, что вы вводите, включая пароли. Чтобы защититься, проверяйте USB-соединение 
+    после оставления ПК без присмотра. Кейлоггеры могут быть встроены в корпус клавиатуры, поэтому ищите признаки взлома 
+    устройства. Также рассматривайте возможность использования собственной клавиатуры на работе. 
+    Данные, введённые на виртуальной клавиатуре, вставленные из буфера обмена или автоматически заполненные менеджером паролей, 
+    не могут быть перехвачены аппаратным кейлоггером.
 
-  - point: Consider a Hardware Token
-    priority: Advanced
-    details: >-
-      A U2F/ FIDO2 security key is a USB (or NFC) device that you insert while logging in to an online service, in to
-      verify your identity, instead of entering a OTP from your authenticator. [SoloKey](https://solokeys.com) and
-      [NitroKey](https://www.nitrokey.com) are examples of such keys. They bring with them several security benefits,
-      since the browser communicates directly with the device and cannot be fooled as to which host is requesting
-      authentication, because the TLS certificate is checked. [This post](https://security.stackexchange.com/a/71704) is
-      a good explanation of the security of using FIDO U2F tokens. Of course it is important to store the physical key
-      somewhere safe, or keep it on your person. Some online accounts allow for several methods of 2FA to be enabled
+- point: Рассмотрите возможность использования аппаратного токена
+  priority: Продвинуто
+  details: >-
+    U2F/ FIDO2 — это USB-устройства (или NFC-ключи), которые вставляются для подтверждения личности при входе 
+    в онлайн-сервис вместо ввода одноразового кода из приложения-аутентификатора. 
+    [SoloKey](https://solokeys.com) и [NitroKey](https://www.nitrokey.com) — примеры таких устройств. 
+    Они обеспечивают дополнительные преимущества безопасности, так как браузер напрямую взаимодействует с устройством 
+    и не может быть обманут в отношении хоста, запрашивающего аутентификацию, благодаря проверке TLS-сертификата. 
+    [Этот пост](https://security.stackexchange.com/a/71704) подробно объясняет безопасность использования FIDO U2F токенов. 
+    Однако важно хранить физический ключ в безопасном месте или держать его при себе. 
+    Некоторые онлайн-аккаунты позволяют включить несколько методов 2FA.
 
-  - point: Consider Offline Password Manager
-    priority: Advanced
-    details: >-
-      For increased security, an encrypted offline password manager will give you full control over your data.
-      [KeePass](https://awesome-privacy.xyz/essentials/password-managers/keepass) is a popular choice, with lots of [plugins](https://[KeePass](https://awesome-privacy.xyz/essentials/password-managers/keepass).info/plugins.html) and
-      community forks with additional compatibility and functionality. Popular clients include: [KeePassXC](https://keepassxc.org)
-      (desktop), [KeePassDX](https://www.keepassdx.com) (Android) and [StrongBox](https://apps.apple.com/us/app/strongbox-password-safe/id897283731)
-      (iOS). The drawback being that it may be slightly less convenient for some, and it will be up to you to back it up,
-      and store it securely
+- point: Рассмотрите использование офлайн-менеджера паролей
+  priority: Продвинуто
+  details: >-
+    Для повышения безопасности используйте зашифрованный офлайн-менеджер паролей, который даст вам полный контроль над данными. 
+    [KeePass](https://awesome-privacy.xyz/essentials/password-managers/keepass) — популярный выбор, 
+    с множеством [плагинов](https://awesome-privacy.xyz/essentials/password-managers/keepass.info/plugins.html) 
+    и форков для расширения функциональности. Среди популярных клиентов: [KeePassXC](https://keepassxc.org) (для ПК), 
+    [KeePassDX](https://www.keepassdx.com) (Android) и [StrongBox](https://apps.apple.com/us/app/strongbox-password-safe/id897283731) (iOS). 
+    Недостаток заключается в меньшем удобстве для некоторых пользователей, а также в необходимости самостоятельно делать резервные копии 
+    и хранить их в безопасном месте.
 
-  - point: Consider Unique Usernames
-    priority: Advanced
-    details: >-
-      Having different passwords for each account is a good first step, but if you also use a unique username, email or
-      phone number to log in, then it will be significantly harder for anyone trying to gain unauthorised access. The easiest
-      method for multiple emails, is using auto-generated aliases for anonymous mail forwarding. This is where
-      [anything]@yourdomain.com will arrive in your inbox, allowing you to use a different email for each account (see
-      [Mail Alias Providers](https://github.com/Lissy93/awesome-privacy#anonymous-mail-forwarding)). Usernames are easier,
-      since you can use your password manager to generate, store and auto-fill these. Virtual phone numbers can be generated
-      through your VOIP provider
+- point: Используйте уникальные имена пользователей
+  priority: Продвинуто
+  details: >-
+    Использование разных паролей для каждого аккаунта — это хороший первый шаг. Но если вы также используете уникальные
+    имена пользователей, электронные адреса или номера телефонов для входа, это значительно усложнит задачу для тех, кто пытается
+    получить несанкционированный доступ. Самый простой способ для работы с несколькими email — это использование автогенерируемых
+    алиасов для анонимной переадресации почты. Например, письма на [любое-имя]@ваш-домен.ru будут доставлены в ваш почтовый ящик, 
+    что позволяет использовать разные email для каждого аккаунта (см. [Провайдеры почтовых алиасов](https://github.com/Lissy93/awesome-privacy#anonymous-mail-forwarding)). 
+    Для имен пользователей проще — вы можете использовать менеджер паролей для их генерации, хранения и автоматического заполнения. 
+    Виртуальные номера телефонов можно получить через вашего VOIP-провайдера.
   softwareLinks:
-    - title: Password Managers
+    - title: Менеджеры паролей
       url: https://github.com/Lissy93/awesome-privacy#password-managers
-    - title: 2-Factor Authentication
+    - title: Двухфакторная аутентификация
       url: https://github.com/Lissy93/awesome-privacy#2-factor-authentication
 
-- title: Web Browsing
+- title: Веб-сёрфинг
   slug: web-browsing
-  description: Avoiding tracking, censorship, and data collection online
+  description: Избегайте слежки, цензуры и сбора данных в интернете
   icon: browser
   intro: >-
-    Most websites on the internet will use some form of tracking, often to gain
-    insight into their users behaviour and preferences. This data can be incredibly
-    detailed, and so is extremely valuable to corporations, governments and intellectual
-    property thieves. Data breaches and leaks are common, and deanonymizing users web
-    activity is often a trivial task.
+    Большинство сайтов в интернете используют формы отслеживания, часто для того, чтобы понять поведение
+    и предпочтения пользователей. Эти данные могут быть невероятно подробными и представляют большую ценность 
+    для корпораций, правительств и киберпреступников. Утечки данных происходят часто, и деанонимизация активности 
+    пользователей в интернете нередко является тривиальной задачей.
 
 
-    There are two primary methods of tracking; stateful (cookie-based), and stateless
-    (fingerprint-based). Cookies are small pieces of information, stored in your browser
-    with a unique ID that is used to identify you. Browser fingerprinting is a highly
-    accurate way to identify and track users wherever they go online. The information
-    collected is quite comprehensive, and often includes browser details, OS, screen
-    resolution, supported fonts, plugins, time zone, language and font preferences,
-    and even hardware configurations.
+    Существует два основных метода слежки: на основе состояния (cookies) и на основе отпечатков (fingerprinting). 
+    Cookies — это небольшие фрагменты информации, сохраняемые в вашем браузере с уникальным идентификатором, который 
+    используется для вашей идентификации. Браузерный отпечаток — это точный способ идентификации и отслеживания 
+    пользователей в интернете. Собранная информация обычно включает данные о браузере, ОС, разрешении экрана, 
+    поддерживаемых шрифтах, плагинах, часовых поясах, языковых предпочтениях и даже конфигурации оборудования.
 
 
-    This section outlines the steps you can take, to be better protected from threats,
-    minimise online tracking and improve privacy.
+    В этом разделе представлены шаги, которые вы можете предпринять, чтобы лучше защитить себя от угроз, минимизировать 
+    онлайн-отслеживание и повысить конфиденциальность.
   checklist:
-  - point: Block Ads
-    priority: Essential
+  - point: Блокируйте рекламу
+    priority: Обязательно
     details: >-
-      Using an ad-blocker can help improve your privacy, by blocking the trackers that ads implement.
-      [uBlock Origin](https://awesome-privacy.xyz/networking/ad-blockers/ublock-origin) is a very
-      efficient and open source browser addon,
-      developed by Raymond Hill. When 3rd-party ads are displayed on a webpage, they have the ability to
-      track you, gathering personal information about you and your habits, which can then be sold, or used
-      to show you more targeted ads, and some ads are plain malicious or fake. Blocking ads also makes pages
-      load faster, uses less data and provides a less cluttered experience.
+      Использование блокировщика рекламы поможет улучшить конфиденциальность, блокируя трекеры, которые часто встроены в рекламу.
+      [uBlock Origin](https://awesome-privacy.xyz/networking/ad-blockers/ublock-origin) — это очень эффективный и открытый 
+      браузерный плагин, разработанный Рэймондом Хиллом. Когда сторонняя реклама отображается на веб-странице, она получает возможность
+      отслеживать вас, собирая личную информацию о вас и ваших привычках, которая затем может быть продана или использована 
+      для показа более таргетированной рекламы. Некоторые объявления также могут быть вредоносными или поддельными. 
+      Блокировка рекламы также ускоряет загрузку страниц, уменьшает потребление данных и делает интерфейс менее загромождённым.
 
-  - point: Ensure Website is Legitimate
-    priority: Basic
-    details: >-
-      It may sound obvious, but when you logging into any online accounts, double check the URL is correct.
-      Storing commonly visited sites in your bookmarks is a good way to ensure the URL is easy to find. When
-      visiting new websites, look for common signs that it could be unsafe: Browser warnings, redirects,
-      on-site spam and pop-ups. You can also check a website using a tool, such as:
-      [Virus Total](https://awesome-privacy.xyz/security-tools/online-tools/virus-total),
-      [IsLegitSite](https://www.islegitsite.com), [Google Safe Browsing Status](https://transparencyreport.google.com/safe-browsing/search)
-      if you are unsure.
+- point: Убедитесь в легитимности сайта
+  priority: Базовое
+  details: >-
+    Это может показаться очевидным, но при входе в любой онлайн-аккаунт обязательно проверяйте правильность URL.
+    Сохранение часто посещаемых сайтов в закладках — хороший способ убедиться, что URL всегда под рукой. При посещении
+    новых сайтов обращайте внимание на признаки потенциальной угрозы: предупреждения браузера, перенаправления, спам 
+    или всплывающие окна на сайте. Если вы не уверены, можно проверить сайт с помощью таких инструментов, как: 
+    [Virus Total](https://awesome-privacy.xyz/security-tools/online-tools/virus-total),
+    [IsLegitSite](https://www.islegitsite.com), [Google Safe Browsing Status](https://transparencyreport.google.com/safe-browsing/search).
 
-  - point: Watch out for Browser Malware
-    priority: Basic
-    details: >-
-      Your system or browser can be compromised by spyware, miners, browser hijackers, malicious redirects,
-      adware etc. You can usually stay protected, just by: ignoring pop-ups, be wary of what your clicking,
-      don't proceed to a website if your browser warns you it may be malicious. Common signs of browser malware
-      include: default search engine or homepage has been modified, toolbars, unfamiliar extensions or icons,
-      significantly more ads, errors and pages loading much slower than usual. These articles from Heimdal
-      explain [signs of browser malware](https://heimdalsecurity.com/blog/warning-signs-operating-system-infected-malware),
-      [how browsers get infected](https://heimdalsecurity.com/blog/practical-online-protection-where-malware-hides)
-      and [how to remove browser malware](https://heimdalsecurity.com/blog/malware-removal).
+- point: Берегитесь вредоносного ПО в браузере
+  priority: Базовое
+  details: >-
+    Ваш браузер или система могут быть скомпрометированы шпионским ПО, майнерами, угонщиками браузера, вредоносными
+    перенаправлениями, рекламным ПО и т.д. Чтобы защититься, старайтесь игнорировать всплывающие окна, будьте осторожны 
+    при переходе по ссылкам и не посещайте сайты, если браузер предупреждает о потенциальной угрозе. Признаки вредоносного
+    ПО в браузере включают: изменённая поисковая система или домашняя страница, появление новых панелей инструментов,
+    незнакомых расширений или значков, увеличение количества рекламы, ошибки или замедленная загрузка страниц. 
+    Эти статьи от Heimdal помогут: [признаки вредоносного ПО](https://heimdalsecurity.com/blog/warning-signs-operating-system-infected-malware), 
+    [как браузеры заражаются](https://heimdalsecurity.com/blog/practical-online-protection-where-malware-hides) и 
+    [как удалить вредоносное ПО](https://heimdalsecurity.com/blog/malware-removal).
 
-  - point: Use a Privacy-Respecting Browser
-    priority: Essential
-    details: >-
-      [Firefox](https://awesome-privacy.xyz/essentials/browsers/firefox) (with a few tweaks)
-      and [Brave](https://awesome-privacy.xyz/essentials/browsers/brave-browser)
-      are secure, private-respecting browsers. Both are fast, open source, user-friendly and available on all
-      major operating systems. Your browser has access to everything that you do online, so if possible, avoid
-      Google Chrome, Edge and Safari as (without correct configuration) all three of them, collect usage data,
-      call home and allow for invasive tracking. Firefox requires a few changes to achieve optimal security,
-      for example - [arkenfox](https://github.com/arkenfox/user.js/wiki) or [12byte](https://12bytes.org/firefox-configuration-guide-for-privacy-freaks-and-performance-buffs/)'s
-      user.js configs. See more: [Privacy Browsers](https://github.com/Lissy93/awesome-privacy#browsers).
+- point: Используйте браузер, уважающий конфиденциальность
+  priority: Обязательно
+  details: >-
+    [Firefox](https://awesome-privacy.xyz/essentials/browsers/firefox) (с настройками) и 
+    [Brave](https://awesome-privacy.xyz/essentials/browsers/brave-browser) — это безопасные браузеры, которые уважают 
+    конфиденциальность. Оба они быстрые, с открытым исходным кодом, удобны в использовании и доступны на всех основных
+    операционных системах. Ваш браузер имеет доступ ко всему, что вы делаете в интернете, поэтому, если возможно, избегайте
+    использования Google Chrome, Edge и Safari, так как они (без правильной настройки) собирают данные, отслеживают 
+    активность и отправляют их на свои серверы. Firefox требует некоторых изменений для достижения оптимальной 
+    безопасности, например, использование конфигураций [arkenfox](https://github.com/arkenfox/user.js/wiki) 
+    или [12byte](https://12bytes.org/firefox-configuration-guide-for-privacy-freaks-and-performance-buffs/). 
+    Подробнее: [Браузеры для конфиденциальности](https://github.com/Lissy93/awesome-privacy#browsers).
 
-  - point: Use a Private Search Engine
-    priority: Essential
-    details: >-
-      Using a privacy-preserving, non-tracking search engine, will reduce risk that your search terms are not
-      logged, or used against you. Consider [DuckDuckGo](https://awesome-privacy.xyz/essentials/search-engines/duckduckgo),
-      or [Qwant](https://awesome-privacy.xyz/essentials/search-engines/qwant).
-      Google implements some [incredibly invasive](https://hackernoon.com/data-privacy-concerns-with-google-b946f2b7afea)
-      tracking policies, and have a history of displaying [biased search results](https://www.businessinsider.com/evidence-that-google-search-results-are-biased-2014-10).
-      Therefore Google, along with Bing, Baidu, Yahoo and Yandex are incompatible with anyone looking to protect
-      their privacy. It is recommended to update your [browsers default search](https://duckduckgo.com/install)
-      to a privacy-respecting search engine.
+- point: Используйте конфиденциальные поисковые системы
+  priority: Обязательно
+  details: >-
+    Использование поисковых систем, которые сохраняют конфиденциальность и не отслеживают вас, снижает риск того, 
+    что ваши поисковые запросы будут записаны или использованы против вас. Рассмотрите варианты, такие как 
+    [DuckDuckGo](https://awesome-privacy.xyz/essentials/search-engines/duckduckgo) или 
+    [Qwant](https://awesome-privacy.xyz/essentials/search-engines/qwant). Google использует 
+    [чрезвычайно инвазивные](https://hackernoon.com/data-privacy-concerns-with-google-b946f2b7afea) методы отслеживания 
+    и известен [предвзятостью поисковых результатов](https://www.businessinsider.com/evidence-that-google-search-results-are-biased-2014-10). 
+    Таким образом, Google, Bing, Baidu, Yahoo и Yandex не подходят для тех, кто заботится о своей конфиденциальности. 
+    Рекомендуется изменить [поиск по умолчанию](https://duckduckgo.com/install) в вашем браузере на поисковую систему, 
+    уважающую конфиденциальность.
 
   - point: Remove Unnecessary Browser Addons
     priority: Essential
