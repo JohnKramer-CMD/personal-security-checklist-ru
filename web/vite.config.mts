@@ -20,6 +20,8 @@ export default defineConfig((): UserConfig => {
       })
     ],
     server: {
+      host: '0.0.0.0',  // Открывает доступ для всех устройств в сети
+      port: 5173,       // Порт, который будет использовать сервер (по умолчанию 5173)
       headers: {
         "Cache-Control": "public, max-age=0",
       },
