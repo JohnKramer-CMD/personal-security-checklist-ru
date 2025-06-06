@@ -9,8 +9,8 @@ export const RouterHead = component$(() => {
   return (
     <>
       {/* Basics */}
-      <title>{head.title || 'Digital Defense - The ultimate personal security checklist to secure your digital life'}</title>
-      <meta name="description" content="The ultimate personal security checklist to secure your digital life" />
+      <title>{head.title || 'Цифровая Защита - Контрольный список личной безопасности'}</title>
+      <meta name="description" content="Контрольный список личной безопасности для защиты вашей цифровой жизни" />
       
       {/* Site config */}
       <link rel="canonical" href={loc.url.href} />
@@ -23,15 +23,15 @@ export const RouterHead = component$(() => {
       {/* Open Graph / Facebook */}
       <meta property="og:type" content="website" />
       <meta property="og:url" content={loc.url.href} />
-      <meta property="og:title" content="Digital Defense - The ultimate personal security checklist to secure your digital life" />
-      <meta property="og:description" content="The ultimate personal security checklist to secure your digital life" />
+      <meta property="og:title" content="Цифровая Защита - Контрольный список личной безопасности" />
+      <meta property="og:description" content="Контрольный список личной безопасности для защиты вашей цифровой жизни" />
       <meta property="og:image" content="/banner.png" />
 
       {/* Twitter */}
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:url" content={loc.url.href} />
-      <meta name="twitter:title" content="Digital Defense - The ultimate personal security checklist to secure your digital life" />
-      <meta name="twitter:description" content="The ultimate personal security checklist to secure your digital life" />
+      <meta name="twitter:title" content="Цифровая Защита - Контрольный список личной безопасности" />
+      <meta name="twitter:description" content="Контрольный список личной безопасности для защиты вашей цифровой жизни" />
       <meta name="twitter:image" content="/banner.png" />
 
       {head.meta.map((m) => (

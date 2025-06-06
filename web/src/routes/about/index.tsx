@@ -42,7 +42,7 @@ export default component$(() => {
   return (
     <div class="m-4 md:mx-16">
       <article class="bg-back p-8 mx-auto max-w-[1200px] m-8 rounded-lg shadow-md">
-        <h2 class="text-3xl mb-2">About the Security Checklist</h2>
+        <h2 class="text-3xl mb-2">О контрольном списке безопасности</h2>
         {intro.map((paragraph, index) => (
           <p class="mb-2" key={index}>{paragraph}</p>
         ))}        
@@ -50,7 +50,7 @@ export default component$(() => {
       <div class="divider"></div>
 
       <article class="bg-back p-8 mx-auto max-w-[1200px] m-8 rounded-lg shadow-md">
-        <h2 class="text-3xl mb-2">Contributing</h2>
+        <h2 class="text-3xl mb-2">Вклад</h2>
         {contributing.map((paragraph, index) => (
           <p class="mb-2" key={index} dangerouslySetInnerHTML={parseMarkdown(paragraph)}></p>
         ))}        
@@ -58,10 +58,10 @@ export default component$(() => {
       <div class="divider"></div>
 
       <article class="bg-back p-8 mx-auto max-w-[1200px] m-8 rounded-lg shadow-md">
-        <h2 class="text-3xl mb-2">Acknowledgments</h2>
+        <h2 class="text-3xl mb-2">Благодарности</h2>
 
 
-        <h3 class="text-2xl mb-2">Sponsors</h3>
+        <h3 class="text-2xl mb-2">Спонсоры</h3>
 
         <p>
           Huge thanks to the following sponsors, for their ongoing support 💖
@@ -98,7 +98,7 @@ export default component$(() => {
 
         <div class="divider"></div>
 
-        <h3 class="text-2xl mb-2">Contributors</h3>
+        <h3 class="text-2xl mb-2">Участники</h3>
         <p>
           This project exists thanks to all the people who've helped build and maintain it.<br />
           Special thanks to the below, top-100 contributors 🌟
@@ -136,7 +136,7 @@ export default component$(() => {
       <div class="divider"></div>
 
       <article class="bg-back p-8 mx-auto max-w-[1200px] my-8 rounded-lg shadow-md">
-        <h2 class="text-3xl mb-2" id="author">About the Author</h2>
+        <h2 class="text-3xl mb-2" id="author">Об авторе</h2>
           <p>
             This project was originally started by
             me, <a href="https://aliciasykes.com" class="link link-primary">Alicia Sykes</a>
@@ -187,7 +187,7 @@ export default component$(() => {
       <div class="divider"></div>
 
       <article class="bg-back p-8 mx-auto max-w-[1200px] m-8 rounded-lg shadow-md">
-        <h2 class="text-3xl mb-2">License</h2>
+        <h2 class="text-3xl mb-2">Лицензия</h2>
         <p>
           This project is split-licensed, with the checklist content (located
           in <a class="link" href="https://github.com/Lissy93/personal-security-checklist/blob/HEAD/personal-security-checklist.yml">
@@ -224,11 +224,11 @@ export default component$(() => {
 });
 
 export const head: DocumentHead = {
-  title: "About | Digital Defense",
+  title: "О проекте | Цифровая Защита",
   meta: [
     {
       name: "description",
-      content: "This project aims to give you practical guidance on how to improve your digital security, and protect your privacy online",
+      content: "Этот проект содержит практические советы по защите вашей цифровой жизни и приватности",
     },
   ],
 };
