@@ -1864,102 +1864,105 @@
 
   color: indigo
 
-- title: Physical Security
+- title: Физическая безопасность
   slug: physical-security
-  description: Taking measures to prevent IRL security incidents
+  description: Меры, предотвращающие реальные инциденты безопасности
   icon: physical
   intro: >-
-    Public records often include sensitive personal data (full name, date of birth,
-    phone number, email, address, ethnicity etc), and are gathered from a range of
-    sources (census records, birth/ death/ marriage certificates, voter registrants,
-    marketing information, customer databases, motor vehicle records, professional/
-    business licenses and all court files in full detail). This sensitive personal
-    information is
-    [easy and legal to access](https://www.consumerreports.org/consumerist/its-creepy-but-not-illegal-for-this-website-to-provide-all-your-public-info-to-anyone/),
-    which raises some [serious privacy concerns](https://privacyrights.org/resources/public-records-internet-privacy-dilemma)
-    (identity theft, personal safety risks/ stalkers, destruction of reputations, dossier society)
+    Публичные реестры часто содержат конфиденциальные персональные данные (ФИО,
+    дату рождения, номер телефона, email, адрес, национальность и т.д.), которые
+    собираются из различных источников: переписей населения, свидетельств о рождении
+    и смерти, списков избирателей, маркетинговых баз, клиентских данных,
+    данных о транспортных средствах, профессиональных лицензий и судебных файлов.
+    Эти данные
+    [легко и законно получить](https://www.consumerreports.org/consumerist/its-creepy-but-not-illegal-for-this-website-to-provide-all-your-public-info-to-anyone/),
+    что вызывает [серьёзные опасения по поводу приватности](https://privacyrights.org/resources/public-records-internet-privacy-dilemma)
+    (кража личности, риски преследования, уничтожение репутации, создание досье)
 
 
-    CCTV is one of the major ways that the corporations, individuals and the government
-    tracks your movements. In London, UK the average person is caught on camera about
-    500 times per day. This network is continuing to grow, and in many cities around
-    the world, facial recognition is being rolled out, meaning the state can know
-    the identity of residents on the footage in real-time.
+    Одна из основных технологий слежки — это камеры видеонаблюдения, которыми
+    пользуются корпорации, частные лица и государство. В Лондоне средний человек
+    попадает в объектив около 500 раз в день. Сеть камер постоянно расширяется, и
+    во многих городах внедряют распознавание лиц, что позволяет узнавать личность
+    прохожих в реальном времени.
 
-    Strong authentication, encrypted devices, patched software and anonymous web
-    browsing may be of little use if someone is able to physically compromise you,
-    your devices and your data. This section outlines some basic methods for physical security
+    Сильная аутентификация, зашифрованные устройства, своевременные обновления и
+    анонимный серфинг мало помогут, если злоумышленник сможет физически
+    завладеть вами или вашими устройствами. В этом разделе приведены базовые методы
+    физической защиты
 
   checklist:
-  - point: Destroy Sensitive Documents
-    priority: Essential
+  - point: Уничтожайте конфиденциальные документы
+    priority: Обязательно
     details: |
-      Shred or redact sensitive documents before disposal to protect against
-      identity theft and maintain confidentiality.
+      Уничтожайте или зачеркивайте важные документы перед их утилизацией,
+      чтобы защититься от кражи личных данных и сохранить конфиденциальность.
 
-  - point: Opt-Out of Public Records
-    priority: Essential
+  - point: Исключите себя из публичных баз
+    priority: Обязательно
     details: |
-      Contact people search websites to opt-out from listings that show persona
-      information, using guides like Michael Bazzell's Personal Data Removal Workbook.
+      Свяжитесь с сайтами поиска людей и попросите удалить ваши персональные
+      данные, используя, например, рекомендации из Personal Data Removal Workbook Майкла Баззелла.
 
-  - point: Watermark Documents
-    priority: Essential
+  - point: Ставьте водяные знаки на документы
+    priority: Обязательно
     details: |
-      Add a watermark with the recipient's name and date to digital copies of
-      personal documents to trace the source of a breach.
+      Добавляйте на цифровые копии документов водяной знак с именем получателя
+      и датой, чтобы отследить источник утечки.
 
-  - point: Don't Reveal Info on Inbound Calls
-    priority: Essential
+  - point: Не раскрывайте данные во входящих звонках
+    priority: Обязательно
     details: |
-      Only share personal data on calls you initiate and verify the recipient's phone number.
+      Сообщайте личную информацию только по звонкам, которые вы инициировали,
+      и проверяйте номер собеседника.
 
-  - point: Stay Alert
-    priority: Essential
-    details: Be aware of your surroundings and assess potential risks in new environments.
+  - point: Будьте бдительны
+    priority: Обязательно
+    details: Следите за окружением и оценивайте возможные риски в незнакомых местах.
 
-  - point: Secure Perimeter
-    priority: Essential
-    details: Ensure physical security of locations storing personal info devices, minimizing external access and using intrusion detection systems.
+  - point: Обеспечьте безопасность периметра
+    priority: Обязательно
+    details: Следите за физической защитой мест, где хранятся устройства с персональными данными,
+      минимизируйте внешний доступ и применяйте системы обнаружения вторжений.
 
-  - point: Physically Secure Devices
-    priority: Essential
-    details: Use physical security measures like Kensington locks, webcam covers, and privacy screens for devices.
+  - point: Физически защищайте устройства
+    priority: Обязательно
+    details: Используйте замки Kensington, шторки на веб-камеру и защитные экраны.
 
-  - point: Keep Devices Out of Direct Sight
-    priority: Essential
-    details: Prevent devices from being visible from outside to mitigate risks from lasers and theft.
+  - point: Держите устройства вне прямой видимости
+    priority: Обязательно
+    details: Не позволяйте устройствам быть видимыми с улицы, чтобы снизить риски лазерных атак и кражи.
 
-  - point: Protect your PIN
-    priority: Essential
-    details: Shield your PIN entry from onlookers and cameras, and clean touchscreens after use.
+  - point: Защищайте свой PIN
+    priority: Обязательно
+    details: Закрывайте ввод PIN от посторонних и камер, очищайте сенсорные экраны после использования.
 
-  - point: Check for Skimmers
-    priority: Essential
-    details: Inspect ATMs and public devices for skimming devices and tampering signs before use.
+  - point: Проверяйте устройства на скиммеры
+    priority: Обязательно
+    details: Перед использованием осматривайте банкоматы и другие устройства на предмет скиммеров и следов вскрытия.
 
-  - point: Protect your Home Address
-    priority: Optional
-    details: Use alternative locations, forwarding addresses, and anonymous payment methods to protect your home address.
+  - point: Скрывайте домашний адрес
+    priority: Необязательно
+    details: Используйте другие места, адреса пересылки и анонимные способы оплаты, чтобы не раскрывать свой дом.
 
-  - point: Use a PIN, Not Biometrics
-    priority: Advanced
-    details: Prefer PINs over biometrics for device security in situations where legal coercion to unlock devices may occur.
+  - point: Используйте PIN вместо биометрии
+    priority: Продвинуто
+    details: Предпочитайте PIN-код биометрии, если есть риск принуждения к разблокировке устройства.
 
-  - point: Reduce exposure to CCTV
-    priority: Advanced
-    details: Wear disguises and choose routes with fewer cameras to avoid surveillance.
+  - point: Снижайте попадание в камеры наблюдения
+    priority: Продвинуто
+    details: Используйте маскировку и выбирайте маршруты с меньшим количеством камер.
 
-  - point: Anti-Facial Recognition Clothing
-    priority: Advanced
-    details: Wear clothing with patterns that trick facial-recognition technology.
+  - point: Одежда против распознавания лиц
+    priority: Продвинуто
+    details: Носите одежду с узорами, которые сбивают с толку системы распознавания лиц.
 
-  - point: Reduce Night Vision Exposure
-    priority: Advanced
-    details: Use IR light sources or reflective glasses to obstruct night vision cameras.
+  - point: Снижайте видимость в ИК-камерах
+    priority: Продвинуто
+    details: Используйте ИК-источники света или отражающие очки, чтобы мешать камерам ночного видения.
 
-  - point: Protect your DNA
-    priority: Advanced
-    details: Avoid sharing DNA with heritage websites and be cautious about leaving DNA traces.
+  - point: Защищайте свою ДНК
+    priority: Продвинуто
+    details: Не делитесь ДНК с генеалогическими сервисами и избегайте оставлять биологические следы.
 
   color: lime
